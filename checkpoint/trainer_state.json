@@ -1,0 +1,76 @@
+{
+  "best_metric": 0.06024711951613426,
+  "best_model_checkpoint": "/home/user/BSANext/Models/Bert/Outputs/checkpoint-2547",
+  "epoch": 3.0,
+  "global_step": 2547,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "learning_rate": 8.47e-06,
+      "loss": 0.2496,
+      "step": 849
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.9760391618000687,
+      "eval_f1": 0.9516883116883117,
+      "eval_loss": 0.0852392241358757,
+      "eval_mcc": 0.93581349309744,
+      "eval_precision": 0.9594972067039106,
+      "eval_recall": 0.9440054963929921,
+      "eval_roc_auc": 0.9653612733310433,
+      "eval_runtime": 137.6532,
+      "eval_samples_per_second": 84.589,
+      "eval_steps_per_second": 21.147,
+      "step": 849
+    },
+    {
+      "epoch": 2.0,
+      "learning_rate": 9.83232810615199e-06,
+      "loss": 0.0582,
+      "step": 1698
+    },
+    {
+      "epoch": 2.0,
+      "eval_accuracy": 0.982995534180694,
+      "eval_f1": 0.9659442724458204,
+      "eval_loss": 0.06433728337287903,
+      "eval_mcc": 0.9546147856361809,
+      "eval_precision": 0.9672752325180848,
+      "eval_recall": 0.9646169701133631,
+      "eval_roc_auc": 0.9768693461582504,
+      "eval_runtime": 137.6755,
+      "eval_samples_per_second": 84.576,
+      "eval_steps_per_second": 21.144,
+      "step": 1698
+    },
+    {
+      "epoch": 3.0,
+      "learning_rate": 9.627503015681545e-06,
+      "loss": 0.0369,
+      "step": 2547
+    },
+    {
+      "epoch": 3.0,
+      "eval_accuracy": 0.9847131569907248,
+      "eval_f1": 0.9693103448275862,
+      "eval_loss": 0.06024711951613426,
+      "eval_mcc": 0.9591443674102123,
+      "eval_precision": 0.9730010384215991,
+      "eval_recall": 0.9656475437993817,
+      "eval_roc_auc": 0.9783579525936106,
+      "eval_runtime": 137.7985,
+      "eval_samples_per_second": 84.5,
+      "eval_steps_per_second": 21.125,
+      "step": 2547
+    }
+  ],
+  "max_steps": 42450,
+  "num_train_epochs": 50,
+  "total_flos": 1.8975842198736077e+17,
+  "trial_name": null,
+  "trial_params": null
+}
